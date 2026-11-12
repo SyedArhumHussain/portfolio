@@ -43,7 +43,7 @@ $skills = [
  'DevOps & Cloud Deployment'=>['Docker','Kubernetes','Azure AI Foundry','Google Cloud Platform (GCP)'],
 ];
 $experience = [
- ['org'=>'Arc Inventador','role'=>'Machine Learning Engineer','when'=>'October 2025 – Present',
+ ['org'=>'Arc Inventador','role'=>'AI/ML Engineer','when'=>'October 2025 – Present',
   'items'=>['Engineered an Automatic Machine Detection (AMD) system that classifies human and machine voices with sub-2-second latency to route calls seamlessly.','Engineered real-time conversational voice agents for front-desk and customer support services using LiveKit.'],
   'tags'=>['Voice AI','LiveKit','AMD']],
  ['org'=>'The Flash Reviews','role'=>'Machine Learning Engineer','when'=>'June 2024 – August 2025',

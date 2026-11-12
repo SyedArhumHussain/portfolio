@@ -15,6 +15,10 @@ php -l <file>.php          # syntax-check a file after editing
 
 Alternatively the folder can be dropped into XAMPP `htdocs/` (then http://localhost/portfolio/).
 
+## Deployment
+
+Hosted on Hostinger (arhumhussain.site) via its "Deploy from GitHub" integration: the `main` branch of `github.com/SyedArhumHussain/portfolio` is deployed into `public_html`, so **pushing or merging to `main` publishes to the live site**. Deployment is a plain git pull — no build step, no Composer/npm install, no env vars, no DB migrations — so everything the site needs must be committed as-is. Server-only files (secrets etc.) belong in gitignored names (`*.local.php`, `.env`) created directly on the server; don't edit tracked files on the server or the next pull may conflict.
+
 ## Architecture
 
 - **`config/config.php` is the single source of content.** It calls `session_start()` and defines the data arrays `$site`, `$mail`, `$projects`, `$skills`, `$experience`, `$education`, plus shared helpers: `e()` (HTML escaping; use it for all output), `icon()`, `socials()`, `arrow()`. To change text, projects, skills, etc., edit these arrays rather than the templates.
