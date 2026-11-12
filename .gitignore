@@ -1,0 +1,8 @@
+# Server-only / local files (never deployed via git)
+.env
+*.local.php
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
