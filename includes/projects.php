@@ -19,7 +19,7 @@ function art($k){
         <ul class="pts"><?php foreach($p['points'] as $x): ?><li><?= e($x) ?></li><?php endforeach; ?></ul>
         <ul class="tags"><?php foreach($p['tags'] as $t): ?><li><?= e($t) ?></li><?php endforeach; ?></ul>
         <div class="foot">
-          <?php foreach(['view'=>'View Project','github'=>'GitHub'] as $k=>$l):
+          <?php foreach(['view'=>'View Project'] as $k=>$l):
             if($p[$k]): ?><a href="<?= e($p[$k]) ?>" target="_blank" rel="noopener noreferrer"><?= $l ?> <?= arrow() ?></a>
             <?php else: ?><span class="off" aria-disabled="true" title="Link not configured yet (config/config.php)"><?= $l ?> (link pending)</span><?php endif; endforeach; ?>
         </div>

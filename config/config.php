@@ -27,7 +27,7 @@ $projects = [
  ['n'=>'02','cat'=>'Healthcare AI / NLP','title'=>'CareShare: AI-Powered Medical Donation Platform','art'=>'care',
   'desc'=>'A bilingual healthcare platform connecting medicine and medical equipment donors with recipients through intelligent conversational assistance.',
   'points'=>['English and Urdu AI chatbot','Medicine donation and request management','OCR and image-based information extraction','AI-powered assistance for donors and recipients'],
-  'tags'=>['NLP','OCR','Chatbot'],'view'=>'https://github.com/SyedArhumHussain/CareShare-AI','github'=>'https://github.com/SyedArhumHussain/CareShare-AI'],
+  'tags'=>['NLP','OCR','Chatbot'],'view'=>'https://green-locust-531594.hostingersite.com/','github'=>'https://github.com/SyedArhumHussain/CareShare-AI'],
  ['n'=>'03','cat'=>'Generative AI / RAG','title'=>'Retrieval-Augmented Customer Support Assistant','art'=>'rag',
   'desc'=>'An intelligent customer support solution using LangChain and Retrieval-Augmented Generation to provide context-aware responses and improve information retrieval.',
   'points'=>['LangChain-based RAG architecture','Context-aware conversational responses','Document retrieval and information processing','Streamlit and React.js dashboards'],
