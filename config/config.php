@@ -20,18 +20,18 @@ $mail = ['to' => $site['email'], 'from' => 'no-reply@' . ($_SERVER['SERVER_NAME'
 
 // Leave a URL empty until you have the real link; the button then shows as unavailable.
 $projects = [
- ['n'=>'01','cat'=>'Voice AI / Speech Classification','title'=>'Automatic Machine Detection System','art'=>'amd',
+ ['n'=>'01','cat'=>'Voice AI / Speech Classification','title'=>'HuMac AI - Automatic Machine Detection System','art'=>'amd',
   'desc'=>'An intelligent voice classification system that distinguishes between human and automated machine voices during incoming calls and routes them to the appropriate agent.',
   'points'=>['Human and machine voice classification','Real-time processing with sub-2-second latency','Intelligent call routing','Conversational voice agent integration using LiveKit'],
-  'tags'=>['Voice AI','LiveKit','Real-time'],'view'=>'https://github.com/SyedArhumHussain/AMD-Automatic-Machine-Detection-System','github'=>'https://github.com/SyedArhumHussain/AMD-Automatic-Machine-Detection-System'],
+  'tags'=>['Voice AI','LiveKit','Real-time'],'view'=>'https://darkorchid-oryx-603426.hostingersite.com/','github'=>'https://github.com/SyedArhumHussain/AMD-Automatic-Machine-Detection-System'],
  ['n'=>'02','cat'=>'Healthcare AI / NLP','title'=>'CareShare: AI-Powered Medical Donation Platform','art'=>'care',
   'desc'=>'A bilingual healthcare platform connecting medicine and medical equipment donors with recipients through intelligent conversational assistance.',
   'points'=>['English and Urdu AI chatbot','Medicine donation and request management','OCR and image-based information extraction','AI-powered assistance for donors and recipients'],
   'tags'=>['NLP','OCR','Chatbot'],'view'=>'https://green-locust-531594.hostingersite.com/','github'=>'https://github.com/SyedArhumHussain/CareShare-AI'],
- ['n'=>'03','cat'=>'Generative AI / RAG','title'=>'Retrieval-Augmented Customer Support Assistant','art'=>'rag',
-  'desc'=>'An intelligent customer support solution using LangChain and Retrieval-Augmented Generation to provide context-aware responses and improve information retrieval.',
-  'points'=>['LangChain-based RAG architecture','Context-aware conversational responses','Document retrieval and information processing','Streamlit and React.js dashboards'],
-  'tags'=>['LangChain','RAG','Streamlit','React.js'],'view'=>'https://github.com/SyedArhumHussain/Voice-Agent','github'=>'https://github.com/SyedArhumHussain/Voice-Agent'],
+ ['n'=>'03','cat'=>'Generative AI / RAG','title'=>'Loriva AI - Voice Agent for Medical Clinics','art'=>'rag',
+  'desc'=>'An intelligent AI-powered healthcare voice agent that automates patient calls, appointment booking, rescheduling, reminders, and no-show recovery for medical clinics using real-time speech processing and LLM-based conversational AI.',
+  'points'=>['24/7 automated patient call answering and handling','AI-powered conversational appointment booking and rescheduling','Real-time speech-to-text and natural text-to-speech processing'],
+  'tags'=>['LangChain','RAG','LangGraph','LiveKit'],'view'=>'https://sweet-slategray-hyena-67.hostingersite.com/','github'=>'https://github.com/SyedArhumHussain/Voice-Agent'],
 ];
 $skills = [
  'Programming Languages'=>['Python','Go','JavaScript','SQL'],

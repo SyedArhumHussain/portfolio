@@ -30,6 +30,6 @@ Hosted on Hostinger (arhumhussain.site) via its "Deploy from GitHub" integration
 ## Conventions / gotchas
 
 - Profile photo: `assets/images/profile.jpg` is auto-detected; otherwise the placeholder SVG is used.
-- Project `view`/`github` URLs left empty render as a disabled "link pending" span; don't invent URLs.
+- Project cards render "View Project" and "GitHub" buttons from each project's `view`/`github` URLs (an empty one shows a disabled "link pending" span); the card title links to `view`, falling back to `github`. Don't invent URLs.
 - `mail()` requires a configured MTA/SMTP in php.ini. When it fails, the form shows an honest error pointing to the site email — do not change it to fake success. The README suggests switching to PHPMailer with SMTP for production; that is not implemented.
 - Code style is deliberately compact (short variable names, dense one-liners); match it.
